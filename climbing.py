@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st  # pip install streamlit
 
 #to run the program, use cmd, change directory to python files 
-# (cd C:\Users\Usuario\Dropbox\coding\Python files) and type 
+# (cd C:\Users\Usuario\Dropbox\coding\Python files\climbing dashboard) and type 
 # streamlit run climbing.py
 
 
@@ -14,7 +14,7 @@ st.set_page_config(page_title="Climbing Dashboard", page_icon=":monkey:", layout
 
 
 df = pd.read_excel(
-    io=r"C:\Users\Usuario\Dropbox\coding\Python files\climbing_dashboard\sport_climbing.xlsx",
+    io=r"C:\Users\Usuario\Dropbox\coding\Python files\climbing dashboard\sport_climbing.xlsx",
     engine="openpyxl",
     sheet_name="sport_climbing",
     skiprows=0,
